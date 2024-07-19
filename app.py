@@ -57,6 +57,7 @@ def send_email(subject, body, to_email, from_email, from_email_password, cc, fil
         return flash_msg
 
 
+load_dotenv()
 subject = 'Python (Selenium) Assignment - Susmit Kumar Pandey'
 to_email = 'tech@themedius.ai'
 from_email = 'susmitpandey22@gmail.com'
